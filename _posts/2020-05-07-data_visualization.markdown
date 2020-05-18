@@ -26,7 +26,7 @@ Once the computer knows it's looking at numbers and doesn't trip over any missin
 **Some common types of visualizations:**<br><br>
 **Scatterplots** are very good for showing correlations and relationships between variables-for instance, how the budget of a movie can affect the revenue that movie makes. Each data point would be for one movie: one budget, one revenue. Scatterplots can be used to form models and thus make predictions: if we put X in, how much Y can we expect to get out of it?
 <br><br>
-![](https://fft4ew.ch.files.1drv.com/y4mTP8ZoR_4v9zQXtVMmadhPH5KAy03twKzPeSsPbBfViaU2wEhk9R3wLVPOn149Ar6V4AxxCRaTUQYL0VFRCfpz29YXUxBw2VIVBnITgAaKwloIlBSJrJTBr0vjSXUrI1Ia_f5DRVK7Ry9DzhQZInigYBAvRfiJyvV8CxDcpz5jYWXbnPOcNkCDOhGU9baAFoNQys9znNhHOXbFiQRLDLGbA?width=387&height=274&cropmode=none)<br>
+![](https://fft4ew.ch.files.1drv.com/y4mTP8ZoR_4v9zQXtVMmadhPH5KAy03twKzPeSsPbBfViaU2wEhk9R3wLVPOn149Ar6V4AxxCRaTUQYL0VFRCfpz29YXUxBw2VIVBnITgAaKwloIlBSJrJTBr0vjSXUrI1Ia_f5DRVK7Ry9DzhQZInigYBAvRfiJyvV8CxDcpz5jYWXbnPOcNkCDOhGU9baAFoNQys9znNhHOXbFiQRLDLGbA?)<br>
 And after reading the data set into the notebook as tn_budgets_df, this plot was made with just one line of code:
 `sns.scatterplot(x='production_budget',y='worldwide_gross',data=tn_budgets_df)`<br>
 So wonderfully simple!
