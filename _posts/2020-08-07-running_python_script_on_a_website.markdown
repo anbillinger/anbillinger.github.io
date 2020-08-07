@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "Running python script on a website"
-date:       2020-08-07 19:11:37 +0000
+title:      "Python Script on a Website"
+date:       2020-08-07 15:11:38 -0400
 permalink:  running_python_script_on_a_website
 ---
 
